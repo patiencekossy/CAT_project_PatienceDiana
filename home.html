@@ -47,7 +47,7 @@
                 <div class="col-md-6">
                     <div class="left-container">
                     
-                        <img src="WhatsApp Image 2023-11-16 at 10.15.21 AM (2).jpeg" alt="Your Image" class="img-fluid" width="100%" height="500" >
+                        <img src="IMGS/new.jpeg" alt="Your Image" class="img-fluid" width="100%" height="500" >
                     
                     </div>
                 </div>
@@ -57,29 +57,27 @@
                         <p>Hello there !! I am Patience Diana Chepkosgei a certified software developer from Modcom Institute of Technology, where I gained foundational skills and expertise in various programming languages and software development methodologies. Currently, I am pursuing my degree in Applied Computing, furthering my knowledge and understanding of the practical application of computer science in real-world scenarios. This educational journey has provided me with a solid technical background, enabling me to combine theoretical concepts with hands-on experience to create innovative solutions in the realm of software development.I am excited about the endless possibilities that lie ahead. My passion for technology, combined with a strong work ethic and a commitment to excellence, propels me forward in my quest to create innovative and impactful software solutions</p>
                         <section id="navigation" class="container">
                             <a href="#skills" onclick="toggleContent('skills')"><b>Skills</b></a>
-                            <a href="#experience" onclick="toggleContent('experience')"><b>Experience</b></a>
                             <a href="#education" onclick="toggleContent('education')"> <b>Education</b></a>
+                            <a href="#experience" onclick="toggleContent('experience')"><b>Experience</b></a>
+                           
                         </section>
                         
                         <section id="skills" class="container hidden">
-                            <h2>Skills</h2>
+                            <h6> My Skills</h6>
                             <ul>
                                 <li>Programming languages: Java, Python, JavaScript</li>
                                 <li>Web development: HTML, CSS, React</li>
                                 <li>Database management: MySQL, MongoDB</li>
                             
                             </ul>
-                        </section>
-                        
-                        <section id="experience" class="container hidden">
-                            <h2>Experience</h2>
-                        
-                        </section>
+                      
+                      
                         
                         <section id="education" class="container hidden">
                             <h2>Education</h2>
                             
-                            <p>2023 Moringa School (Software Engineering)</p>
+                            <p>2023 Modcom Institute Of Technology (Software Engineering)</p>
+                            <p>Andela Learning Community</p>
                             <p>2023 - 2026 KCA University (Computer Science)</p>
                         </section>
                         
@@ -121,20 +119,20 @@
         <h2 style=" text-decoration: overline;">Projects</h2>
         <section class="row">
             <div class="col-md-3">
-                <img src="WhatsApp Image 2023-11-06 at 2.52.07 PM.jpeg" alt="" class="img-fluid" width="100%"  >
+                <img src="IMGS/WhatsApp Image 2023-10-25 at 5.02.13 PM (2).jpeg" alt="" class="img-fluid" width="100%"  >
                 
     
             </div>
             
             <div class="col-md-3">
-                <img src="fitness.jpg" alt="" class="img-fluid" width="80%">
+                <img src="IMGS/fitness.jpg" alt="" class="img-fluid" width="80%">
     
             </div>
             <div class="col-md-3">
                 <img src="IMGS/food.jpg" alt="" class="img-fluid" width="80%" >
             </div>
             <div class="col-md-3">
-                <img src="candless.jpg" alt="" class="img-fluid" width="100%" height="300" >
+                <img src="IMGS/candless.jpg" alt="" class="img-fluid" width="100%" height="300" >
     
             </div>
             
@@ -159,7 +157,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="right-container">
-                            <img src="WhatsApp Image 2023-11-06 at 2.52.07 PM.jpeg" alt="Your Image" class="img-fluid" width="100%"  height="400">
+                            <img src="IMGS/WhatsApp Image 2023-10-25 at 5.02.13 PM (2).jpeg" alt="Your Image" class="img-fluid" width="100%"  height="400">
                         
                         <p></p>
                         </div>
@@ -184,7 +182,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="right-container">
-                            <img src="fitness.jpg" alt="Your Image" class="img-fluid" width="100%"  height="400">
+                            <img src="IMGS/fitness.jpg" alt="Your Image" class="img-fluid" width="100%"  height="400">
                         
                         <p></p>
                         </div>
@@ -218,8 +216,19 @@
         
         <footer>
             <p>&copy; 2023 YourName</p>
-        </footer>  
-
+        </footer>
+        <script>
+            function toggleContent(contentId) {
+               
+                var content = document.getElementById(contentId);
+                if (content.style.display === 'none' || content.style.display === '') {
+                    content.style.display = 'block';
+                } else {
+                    content.style.display = 'none';
+                }
+            }
+        </script>
+    
         
     </body>
     </html>
